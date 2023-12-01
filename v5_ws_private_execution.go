@@ -61,34 +61,34 @@ type V5WebsocketPrivateExecutionResponse struct {
 
 // V5WebsocketPrivateExecutionData :
 type V5WebsocketPrivateExecutionData struct {
-	Category        string    `json:"category"`
-	Symbol          SymbolV5  `json:"symbol"`
-	ExecFee         string    `json:"execFee"`
-	ExecID          string    `json:"execId"`
-	ExecPrice       string    `json:"execPrice"`
-	ExecQty         string    `json:"execQty"`
-	ExecType        ExecType  `json:"execType"`
-	ExecValue       string    `json:"execValue"`
-	IsMaker         bool      `json:"isMaker"`
-	FeeRate         string    `json:"feeRate"`
-	TradeIv         string    `json:"tradeIv"`
-	MarkIv          string    `json:"markIv"`
-	BlockTradeID    string    `json:"blockTradeId"`
-	MarkPrice       string    `json:"markPrice"`
-	IndexPrice      string    `json:"indexPrice"`
-	UnderlyingPrice string    `json:"underlyingPrice"`
-	LeavesQty       string    `json:"leavesQty"`
-	OrderID         string    `json:"orderId"`
-	OrderLinkID     string    `json:"orderLinkId"`
-	OrderPrice      string    `json:"orderPrice"`
-	OrderQty        string    `json:"orderQty"`
-	OrderType       OrderType `json:"orderType"`
-	StopOrderType   string    `json:"stopOrderType"`
-	Side            Side      `json:"side"`
-	ExecTime        string    `json:"execTime"`
-	IsLeverage      string    `json:"isLeverage"`
-	ClosedSize      string    `json:"closedSize"`
-	Seq             int64     `json:"seq"`
+	Category        CategoryV5 `json:"category"`
+	Symbol          SymbolV5   `json:"symbol"`
+	ExecFee         string     `json:"execFee"`
+	ExecID          string     `json:"execId"`
+	ExecPrice       string     `json:"execPrice"`
+	ExecQty         string     `json:"execQty"`
+	ExecType        ExecType   `json:"execType"`
+	ExecValue       string     `json:"execValue"`
+	IsMaker         bool       `json:"isMaker"`
+	FeeRate         string     `json:"feeRate"`
+	TradeIv         string     `json:"tradeIv"`
+	MarkIv          string     `json:"markIv"`
+	BlockTradeID    string     `json:"blockTradeId"`
+	MarkPrice       string     `json:"markPrice"`
+	IndexPrice      string     `json:"indexPrice"`
+	UnderlyingPrice string     `json:"underlyingPrice"`
+	LeavesQty       string     `json:"leavesQty"`
+	OrderID         string     `json:"orderId"`
+	OrderLinkID     string     `json:"orderLinkId"`
+	OrderPrice      string     `json:"orderPrice"`
+	OrderQty        string     `json:"orderQty"`
+	OrderType       OrderType  `json:"orderType"`
+	StopOrderType   string     `json:"stopOrderType"`
+	Side            Side       `json:"side"`
+	ExecTime        string     `json:"execTime"`
+	IsLeverage      string     `json:"isLeverage"`
+	ClosedSize      string     `json:"closedSize"`
+	Seq             int64      `json:"seq"`
 }
 
 // Key :
