@@ -50,6 +50,8 @@ const (
 	OrderStatusNew = OrderStatus("New")
 	// OrderStatusPartiallyFilled :
 	OrderStatusPartiallyFilled = OrderStatus("PartiallyFilled")
+	// OrderStatusPartiallyFilled :
+	OrderStatusPartiallyFilledCanceled = OrderStatus("PartiallyFilledCanceled")
 	// OrderStatusFilled :
 	OrderStatusFilled = OrderStatus("Filled")
 	// OrderStatusCancelled :
